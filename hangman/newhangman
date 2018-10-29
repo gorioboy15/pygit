@@ -1,0 +1,42 @@
+#!/data/data/com.termux/files/usr/bin/python
+''' Hangman program, word 
+guessing game'''
+from hangman import underscrs # import def that create empty lines to fill in 
+from random import choice # pick the word randomly
+from word import wrd
+import os
+l = ['chair','wood','house','cabinet',] # words choices 
+w = choice(l)
+n = l.index(w) # index the word chosen
+tot = 0
+cnt=0
+guess=len(w)
+r = underscrs(l,n) # calling def underscrd to get the word template
+os.system('clear')
+print('Welcome to Word Guessing Game!\n')
+print(*r,sep=' ')
+print('You got {} letter word {} guesses'.format(guess,guess))
+while tot < len(w):
+	g = input('ent: ')
+	word = wrd(g,w,r) # called def wrd to manipulate def underscrs template
+	cnt=word.count(g) # count cor$
+	if list(w) == word:
+		os.system('clear')
+		print('Welcome to Word Guessing Game!\n')
+		print(*word,sep=' ')
+		print('You Win!')
+		break
+	elif cnt != 0:
+		os.system('clear')
+		print('Welcome to Word Guessing Game!\n')
+		print(*word,sep=' ') # unpack var(word) and sep method to print nice and clean
+		print('You got {} correct letter'.format(cnt))
+	else:
+		os.system('clear')
+		print('Welcome to Word Guessing Game!\n')
+		print(*word,sep=' ') 
+		guess-=1
+		print('{} left guesses '.format(guess))
+		tot += 1
+		
+#os.system('clear')
