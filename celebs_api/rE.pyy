@@ -1,0 +1,7 @@
+import json
+import re
+
+dcelbs={}
+scelbs=''
+with open('celbs.text','r')as f:
+	str(dcelbs=json.load(f)) 
