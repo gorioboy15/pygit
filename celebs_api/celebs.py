@@ -9,7 +9,7 @@ r = requests.get(celb).json() # convert to json
 celbdict={}
 with open('celbs.text','r')as f:
 	celbdict=json.load(f) # load json text file to python dictionary
-print(r)
+#print(r)
 for name in r['Birthdays']:
     n = name['name']
     d = name['dob']
