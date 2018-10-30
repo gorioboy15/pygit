@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+from random import *
+
+l = ['jacket', 'write', 'justify', 'jungle']
+wrd = choice(l)
+lstwrd = list(wrd)
+shuffle(lstwrd)
+print('Welcome to Jumble Word!\n')
+print(''.join(lstwrd))
+print('\nYou have only one try, good luck!')
+ans = input('Enter here: ')
+if ans  == wrd:
+	
+	l.remove(wrd)
+	print('You win!')
+else:
+	print('You loose!')
+ 
+
