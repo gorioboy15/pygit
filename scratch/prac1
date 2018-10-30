@@ -22,8 +22,14 @@ sum is equal to K.
 '''
 t = '1'
 sa = '7'
-ne = '1 2 3 4 5 6 7'
-s = '8'
-
-def pairsum(t,sa,ne,s):
-    
+ne = [1, 2, 3, 4, 5, 6, 7]
+s = 8
+r = []
+#def pairsum(t,sa,ne,s):
+for e in ne:
+  for n in ne:
+    if e != n and e + n == 8:
+      r.append((e,n))
+    else:
+      continue 
+print(r)         
