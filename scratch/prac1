@@ -20,16 +20,47 @@ the pairs such that there
 sum is equal to K.
 
 '''
+#l = [[1, 7], [2, 6], [3, 5], [5, 3], [6, 2], [7, 1]]
+res = []
 t = '1'
 sa = '7'
-ne = [1, 2, 3, 4, 5, 6, 7]
-s = 8
+ne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+s = 6
 r = []
-#def pairsum(t,sa,ne,s):
-for e in ne:
-  for n in ne:
-    if e != n and e + n == 8:
-      r.append((e,n))
-    else:
-      continue 
-print(r)         
+def pairsum(ne,s):
+    for e in ne:
+      for n in ne:
+        if e != n and e + n == s:
+          r.append([e,n])
+        else:
+          continue
+    return r
+
+def rmsame(l): # to eliminate same numbers in list
+    fin = []
+    for n in l:
+        for s1 in l:
+            if n != s1:
+                s1.reverse()
+                if n == s1:
+                    res.append(n)
+                else:
+                    continue
+            else:
+                continue
+    for i in res:
+        fin.append(''.join(str(i).strip('[]').replace(' ','') + ','+ str(s))) # convert to string and to print them by row
+    return fin
+#print(r)
+# result = rmsame(pairsum(ne,s))
+# print(result)
+for i in rmsame(pairsum(ne,s)):
+    print(i)
+
+
+
+# print(r[0].reverse() == r[5].reverse())
+# print(r[0])
+# print(r[5])
+
+#print(l)
