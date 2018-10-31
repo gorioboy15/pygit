@@ -21,41 +21,55 @@ sum is equal to K.
 
 '''
 #l = [[1, 7], [2, 6], [3, 5], [5, 3], [6, 2], [7, 1]]
-res = []
-t = '1'
-sa = '7'
-ne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-s = 6
+#res = []
+#t = '2'
+#sa = '7'
+#ne = '1 2 3 4 5 6 7 8 9 10'
+#s = '5'
 r = []
-def pairsum(ne,s):
-    for e in ne:
-      for n in ne:
-        if e != n and e + n == s:
-          r.append([e,n])
+def pairsum(sa,ne,s):
+    ne = [int(i) for i in ne.split(' ')]
+    s = int(s)
+    for e in range(int(sa)):
+      for e1 in ne:
+        if ne[e] != e1 and ne[e] + e1 == s:
+          r.append([ne[e],e1])
         else:
           continue
     return r
 
 def rmsame(l): # to eliminate same numbers in list
     fin = []
+    res = []
     for n in l:
-        for s1 in l:
-            if n != s1:
-                s1.reverse()
-                if n == s1:
+        for n1 in l:
+            if n != n1:
+                n1.reverse()
+                if n == n1:
                     res.append(n)
                 else:
                     continue
             else:
                 continue
-    for i in res:
-        fin.append(''.join(str(i).strip('[]').replace(' ','') + ','+ str(s))) # convert to string and to print them by row
-    return fin
+    #for i in res:
+    #    fin.append(''.join(str(i).strip('[]').replace(' ','') + ','+ str(s))) # convert to string and to print them by row
+    return res
+rst=[]
+t = input("T: ")
+for i in range(int(t)):
+    sa = input('SA: ')
+    ne = input('NE: ')
+    s = input('S: ')
+    rst = pairsum(sa,ne,s)
+    r.extend(rst)
+    #rst = []
 
-#print(r)
-# result = rmsame(pairsum(ne,s))
-# print(result)
-for i in rmsame(pairsum(ne,s)):
-    print(i)
+print(rmsame(r))
+#print(r) 
+#rmsame(pairsum(sa,ne,s))
+#print(pairsum(sa,ne,s))
+#for i in rmsame(pairsum(ne,s)):
+   # print(i)
 
+#print(result)
 
