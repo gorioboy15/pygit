@@ -51,6 +51,7 @@ def rmsame(l): # to eliminate same numbers in list
     for i in res:
         fin.append(''.join(str(i).strip('[]').replace(' ','') + ','+ str(s))) # convert to string and to print them by row
     return fin
+
 #print(r)
 # result = rmsame(pairsum(ne,s))
 # print(result)
@@ -58,9 +59,3 @@ for i in rmsame(pairsum(ne,s)):
     print(i)
 
 
-
-# print(r[0].reverse() == r[5].reverse())
-# print(r[0])
-# print(r[5])
-
-#print(l)
