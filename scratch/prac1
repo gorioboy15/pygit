@@ -4,12 +4,7 @@ res = []
 def pairsum(sa,ne,s):
     ne = [int(i) for i in ne.split(' ')]
     s = int(s)
-    for e in range(int(sa)):
-      for e1 in ne:
-        if ne[e] != e1 and ne[e] + e1 == s:
-          r.append([ne[e],e1])
-        else:
-          continue
+    r = [ [ne[e],e1] for e in range(int(sa)) for e1 in ne if ne[e] != e1 and ne[e] + e1 == s ]
     return r
 fin = []
 def rmsame(l): # to eliminate same numbers in list
@@ -38,8 +33,9 @@ for i in range(int(t)):
  
 final=[]
 
-final.extend(fin)
-#print(final) 
+final.extend(res)
+for i in final:
+    print(''.join(str(i).strip('[]').replace(',',''))) 
 #rmsame(pairsum(sa,ne,s))
 #print(pairsum(sa,ne,s))
 #for i in rmsame(pairsum(ne,s)):
