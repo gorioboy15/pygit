@@ -1,16 +1,15 @@
-
 r = []
 res = []
 def pairsum(sa,ne,s):
-  ne = [int(i) for i in ne.split(' ')]    
+  #ne = [int(i) for i in ne.split(' ')]    
   s = int(s)
   r = [ [ne[e],e1] for e in range(int(sa)) for e1 in ne if ne[e] != e1 and ne[e] + e1 == s ]
   for n in r:
     for n1 in r:
       if n != n1:
         n1.reverse()
-        if n == n1:
-          res.append([n,s])    
+        if n  == n1:
+          res.append(str([n,s]))    
   return res
 
 fin = []
@@ -21,19 +20,28 @@ t = input("T: ")
 for i in range(int(t)):   
   sa = input('SA: ')
   ne= input('NE: ')
-  s2 = input('S: ')
-  ps = pairsum(sa,ne,s2)
- 
- 
+  ne = [int(i) for i in ne.split(' ')]
+xh  s2 = input('S: ')
+  pairsum(sa,ne,s2)
+  ne = []
+'''
+sa='5'
+ne=[1,2,3,4,5]
+s2='5'
+ps = pairsum(sa,ne,s2)
+ne = []
+''' 
 final=[]
-print(ps)
+don = ''
+print(res)
+done = []
 final.extend(res)
 for i in final:
-  print(''.join(str(i).strip('[]]').replace('] ',''))) 
+    don= i.strip('[]').replace(']','')
 #rmsame(pairsum(sa,ne,s))
 #print(pairsum(sa,ne,s))
 #for i in rmsame(pairsum(ne,s)):
    # print(i)
 
-#print(result)
+print(''.join(don).replace(',',''))
 
