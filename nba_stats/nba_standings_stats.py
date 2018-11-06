@@ -9,11 +9,11 @@ soup = BeautifulSoup(response.content, 'html.parser')
 span = soup.find_all('span', class_="hide-mobile")[0]
 for a in soup.find_all('a', class_="clr-gray-01"):
     print(a.text,end=' ')
-with open('nba_standings_stat.txt','w') as f:
-    for td in soup.find_all('td', class_="Table2__td"):
-        for span in td.find_all('span', class_="stat-cell"):
-            f.write(span.text)
-        f.write('\t')   # print(span.text)
+#with open('nba_standings_stat.txt','w') as f:
+    #for td in soup.find_all('td', class_="Table2__td"):
+        #for span in td.find_all('span', class_="stat-cell"):
+            #f.write(span.text)
+        #f.write('\t')   # print(span.text)
 
 # print(a.text)
 # print(len(a))f
