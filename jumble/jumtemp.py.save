@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+l = ['word','just','winner',]
+
+def wrdtmpl(l):
+	
