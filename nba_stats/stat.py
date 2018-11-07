@@ -1,6 +1,8 @@
 import re
-
+names = ''
 stat=''
+with open('nba_names.txt', 'r') as n:
+   names = n.read()
 with open('nba_standings_stat.txt','r')as f:
    stat = f.read()
 pat = re.compile(r'[0-9\-\.WL]+')
@@ -26,8 +28,8 @@ for i in stat:
   print(i.replace("",'+'),end=' ')
 '''
 ie = []
-
-#print(len(fin[0][3]))
+print(fin)
+#print(len(fin[0][3])) # print it in order and aligned
 for i in fin:
    for e in i:
       if e == i[3] and len(e) == 1:
@@ -40,7 +42,11 @@ for i in fin:
          i[10] = f'{i[10]} '
       else:
          continue
-         
-      
-for i in fin:
-   print('  '.join(i))
+
+
+names = names.split('**')
+print(len(names))
+print(type(names))
+print(len(fin))
+for i in zip(names,fin):
+   print(i)
