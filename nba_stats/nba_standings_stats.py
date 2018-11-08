@@ -10,20 +10,21 @@ span = soup.find_all('span', class_="hide-mobile")
 with open('nba_names.txt','w')as n:
     for i in span:
         #print(i.text + '**')
-        n.write(i.text + '**')
+        n.write(i.text + ',')
 
 #for a in span.find_all('a', class_="clr-gray-01"):
-#    print(a.text,end=' ')
+#print(a.text)
 with open('nba_standings_stat.txt','w') as f:
     for td in soup.find_all('td', class_="Table2__td"):
         for span in td.find_all('span', class_="stat-cell"):
             f.write(span.text)
-        f.write(' ')   # print(span.text)
+        f.write(' ')
 
-# print(a.text)
+print(soup.prettify)
 # print(len(a))f
 # print(type(td))
-# span = soup.find_all('span', class_="hide-mobile")
+span = soup.find_all('span', class_="hide-mobile")[0]
+print(span.text)
 
 
 

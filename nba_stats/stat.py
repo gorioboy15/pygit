@@ -1,3 +1,4 @@
+import csv
 import re
 names = ''
 stat=''
@@ -11,6 +12,7 @@ cnt = 14
 ct = 0
 fin = []
 f = []
+snf = ''
 for i in res:
    ct += 1
    if ct != cnt:
@@ -20,15 +22,24 @@ for i in res:
       cnt += 13
       f = []
       f.append(i)
-
-'''with 
-open('nba_standings_stat.txt','r')as f:
-'  stat = f.read()
-for i in stat:
-  print(i.replace("",'+'),end=' ')
+cnt = 0
+nf=[]
+n  = names.split(',')
+#print(n)
+#print(fin)
+'''for i in fin:
+   i.insert(0,n[cnt])
+   cnt+=1
+for i in fin:
+   #print(' '.join(i))
+   nf.append(' '.join(i))
 '''
-ie = []
-print(fin)
+#snf = str(nf)
+with open('team_stats.txt','r') as reader:
+    snf = reader.read()
+  # for i in reader:
+#       print(nf)
+
 #print(len(fin[0][3])) # print it in order and aligned
 for i in fin:
    for e in i:
@@ -43,10 +54,14 @@ for i in fin:
       else:
          continue
 
-
+'''
 names = names.split('**')
 print(len(names))
 print(type(names))
 print(len(fin))
 for i in zip(names,fin):
    print(i)
+'''
+
+print(' '.join(snf.split(',')))
+print(type(snf))
