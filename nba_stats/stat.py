@@ -34,14 +34,6 @@ for i in fin:
    #print(' '.join(i))
    nf.append(' '.join(i))
 '''
-<<<<<<< HEAD
-#snf = str(nf)
-with open('team_stats.txt','r') as reader:
-    snf = reader.read()
-  # for i in reader:
-#       print(nf)
-
-=======
 ie = []
 #print(fin)
 >>>>>>> 0dd28b7889868d587327673b3bac41ed5a3bf23b
