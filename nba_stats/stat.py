@@ -28,7 +28,7 @@ for i in stat:
   print(i.replace("",'+'),end=' ')
 '''
 ie = []
-print(fin)
+#print(fin)
 #print(len(fin[0][3])) # print it in order and aligned
 for i in fin:
    for e in i:
@@ -49,4 +49,5 @@ print(len(names))
 print(type(names))
 print(len(fin))
 for i in zip(names,fin):
-   print(i)
+   ie.append([i])
+print(ie)
