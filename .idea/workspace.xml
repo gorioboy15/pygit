@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="659ea01d-0ee0-4033-9e91-6a51dd6d20bd" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="4a0dbd08-c521-40e8-b1c5-96a86586af14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/celebs_api/celbs.text" beforeDir="false" afterPath="$PROJECT_DIR$/celebs_api/celbs.text" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba_stats/nba_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_stat.txt" afterDir="false" />
->>>>>>> 2bd0c754c802a124cc2cd9848d92f4c66a60f245
-    </list>
+
+
 >>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
