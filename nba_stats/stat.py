@@ -34,9 +34,12 @@ for i in fin:
    #print(' '.join(i))
    nf.append(' '.join(i))
 '''
-ie = []
-#print(fin)
->>>>>>> 0dd28b7889868d587327673b3bac41ed5a3bf23b
+#snf = str(nf)
+with open('team_stats.txt','r') as reader:
+    snf = reader.read()
+  # for i in reader:
+#       print(nf)
+
 #print(len(fin[0][3])) # print it in order and aligned
 for i in fin:
    for e in i:
@@ -57,13 +60,8 @@ print(len(names))
 print(type(names))
 print(len(fin))
 for i in zip(names,fin):
-<<<<<<< HEAD
    print(i)
 '''
 
 print(' '.join(snf.split(',')))
 print(type(snf))
-=======
-   ie.append([i])
-print(ie)
->>>>>>> 0dd28b7889868d587327673b3bac41ed5a3bf23b
