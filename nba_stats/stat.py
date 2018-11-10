@@ -27,22 +27,6 @@ for i in res:
       f = []
       f.append(i)
 cnt = 0
-nf=[]
-n  = names.split(',')
-#print(n)
-#print(fin)
-'''for i in fin:
-   i.insert(0,n[cnt])
-   cnt+=1
-for i in fin:
-   #print(' '.join(i))
-   nf.append(' '.join(i))
-'''
-#snf = str(nf)
-with open('team_stats.txt','r') as reader:
-    snf = reader.read()
-  # for i in reader:
-#       print(nf)
 
 #print(len(fin[0][3])) # print it in order and aligned
 for i in fin:
