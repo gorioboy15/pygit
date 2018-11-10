@@ -2,10 +2,14 @@ import csv
 import re
 names = ''
 stat=''
+heads = ''
+with open('heads.txt','r')as h:
+   heads = h.read()
 with open('nba_names.txt', 'r') as n:
    names = n.read()
 with open('nba_standings_stat.txt','r')as f:
    stat = f.read()
+
 pat = re.compile(r'[0-9\-\.WL]+')
 res = re.findall(pat,stat)
 cnt = 14
@@ -54,14 +58,23 @@ for i in fin:
       else:
          continue
 
-'''
-names = names.split('**')
-print(len(names))
-print(type(names))
-print(len(fin))
-for i in zip(names,fin):
-   print(i)
-'''
 
-print(' '.join(snf.split(',')))
-print(type(snf))
+cnt = 0
+heads = heads.strip(',')
+heads = heads.split(',')
+names = names.split(',')
+for stat in fin:# insert team names at the start(index 0) of every stats list
+   stat.insert(0,names[cnt])
+   cnt += 1
+
+print(heads)
+#print(names)
+print(fin)
+with open('nba_stats.csv', 'w')as csvfile:
+   nba_stats = csv.writer(csvfile)
+   nba_stats.writerow(heads)
+   for stats in fin:
+      nba_stats.writerow(stats)
+
+
+
