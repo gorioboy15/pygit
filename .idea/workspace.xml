@@ -1,132 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="659ea01d-0ee0-4033-9e91-6a51dd6d20bd" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="4a0dbd08-c521-40e8-b1c5-96a86586af14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0ef2c5e2-cb31-418f-abfe-b8188d7103f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nba_stats/heads.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba_stats/nba_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba_stats/nba_statsbak.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba_stats/stat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba_stats/team_stats.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba_stats/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pygit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celebs_api/celbs.text" beforeDir="false" afterPath="$PROJECT_DIR$/celebs_api/celbs.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/.idea/hangman.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/newhangman.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/newhangman.py.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/word.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumble.py.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumble.py.save.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumble.py.save.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumtemp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/jumtemp.py.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumble/list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba_stats/nba_assist_stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba_stats/nba_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba_stats/nba_standings_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_standings_stat.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nba_stats/nba_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/nba_stat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba_stats/nba_stat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nba_stats/stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/nba_stats/stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwdgen/psswdgen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwdgen/psswdgen_easy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwdgen/psswdgen_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwdgen/psswdgen_strong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/presbday.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/scrape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/stcp.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/us_capitals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/chardetect" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/easy_install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/easy_install-3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/pip3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/pip3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/bin/python3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/lib/python3.7/site-packages/setuptools.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/pip-selfcheck.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presidentsBday/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch/prac1" beforeDir="false" />
     </list>
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="FUSProjectUsageTrigger">
-    <session id="1835906696">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="23" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
-  </component>
-  <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
-=======
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nba_stats/nba_standings_stats.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nba_stats/nba_stats.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nba_stats/nba_standings_stat.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nba_stats/stat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="124" selection-start-column="124" selection-end-column="124" />
+            <state relative-caret-position="136">
+              <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/presidentsBday/us_capitals.py" />
-=======
-        <option value="$PROJECT_DIR$/nba_standings.py" />
-        <option value="$PROJECT_DIR$/nba_stats/nba_standings.py" />
-        <option value="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+        <option value="$PROJECT_DIR$/nba_stats/stat.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="-6" />
-    <option name="y" value="264" />
-    <option name="width" value="1281" />
-    <option name="height" value="513" />
-=======
-    <option name="width" value="1360" />
-    <option name="height" value="738" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+    <option name="x" value="6" />
+    <option name="width" value="894" />
+    <option name="height" value="486" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Scope" />
-=======
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,33 +121,13 @@
             <path>
               <item name="pygit" type="b2602c69:ProjectViewProjectNode" />
               <item name="pygit" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="presidentsBday" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="nba_stats" type="462c0819:PsiDirectoryNode" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nba_stats" />
-    </key>
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,33 +141,8 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunManager">
-    <configuration name="us_capitals" type="PythonConfigurationType" factoryName="Python" temporary="true">
-=======
-  <component name="RunManager" selected="Python.nba_standings_stats">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pygit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hangman" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="nba_standings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pygit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nba_stats/nba_standings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nba_stats/stat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,99 +163,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nba_standings_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pygit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nba_stats" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nba_stats/nba_standings_stats.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="newhangman (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pygit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="TERM" value="xterm-color" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hangman" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman/newhangman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="newhangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
-      <module name="pygit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-<<<<<<< HEAD
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/presidentsBday" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/presidentsBday/us_capitals.py" />
-=======
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hangman" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman/newhangman" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-<<<<<<< HEAD
     <recent_temporary>
       <list>
-        <item itemvalue="Python.us_capitals" />
-=======
-    <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.newhangman" />
-      <item itemvalue="Python.newhangman (1)" />
-      <item itemvalue="Python.nba_standings" />
-      <item itemvalue="Python.nba_standings_stats" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.nba_standings_stats" />
-        <item itemvalue="Python.nba_standings" />
-        <item itemvalue="Python.newhangman (1)" />
-        <item itemvalue="Python.newhangman" />
-        <item itemvalue="Python.main" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+        <item itemvalue="Python.stat" />
       </list>
     </recent_temporary>
   </component>
@@ -325,184 +174,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="659ea01d-0ee0-4033-9e91-6a51dd6d20bd" name="Default Changelist" comment="" />
-      <created>1540791358169</created>
+      <changelist id="0ef2c5e2-cb31-418f-abfe-b8188d7103f1" name="Default Changelist" comment="" />
+      <created>1541876589306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540791358169</updated>
-=======
-      <changelist id="4a0dbd08-c521-40e8-b1c5-96a86586af14" name="Default Changelist" comment="" />
-      <created>1540792298098</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1540792298098</updated>
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+      <updated>1541876589306</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
-=======
-    <frame x="0" y="0" width="1360" height="738" extended-state="6" />
+    <frame x="-6" y="0" width="1372" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2468117" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15978995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288364" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-=======
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.34707904" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5412371" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/presidentsBday/us_capitals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-=======
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50086653" side_tool="true" weight="0.33560476" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32890365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24870017" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" weight="0.33560476" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50086653" side_tool="true" weight="0.33560476" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32890365" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/presidentsBday/us_capitals.py">
+    <entry file="file://$PROJECT_DIR$/nba_stats/team_stats.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/celebs_api/rE.py" />
-    <entry file="file://$PROJECT_DIR$/celebs_api/lookahead.py" />
-    <entry file="file://$PROJECT_DIR$/celebs_api/date.py" />
-    <entry file="file://$PROJECT_DIR$/celebs_api/celebs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celebs_api/celebBdayApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/hangman/newhangman" />
-    <entry file="file://$PROJECT_DIR$/hangman/prntnice.py" />
-    <entry file="file://$PROJECT_DIR$/hangman/word.py">
+    <entry file="file://$PROJECT_DIR$/nba_stats/nba_names.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/hangman.py" />
-    <entry file="file://$PROJECT_DIR$/hangman/newhangman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jumble/list.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presidentsBday/presbday.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celebs_api/celbs.text">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nba_stats/nba_standings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nba_stats/nba_stat.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2609">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nba_stats/nba_standings_stat.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="124" selection-start-column="124" selection-end-column="124" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nba_stats/nba_standings_stats.py">
+    <entry file="file://$PROJECT_DIR$/nba_stats/nba_stats.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nba_stats/stat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
->>>>>>> eadb74a3dc824a9d1800108e2c418a847c27c420
   </component>
 </project>
