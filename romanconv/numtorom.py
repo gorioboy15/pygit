@@ -44,4 +44,3 @@ def dectorom():
                      break
 
       return ''.join(cnt)
-print(dectorom())
