@@ -8,19 +8,14 @@ l.reverse() # check l backwards
 
 
 def dectorom(n):
-      if not n.isalpha():
+      if n.isdigit():
          num = int(n)
-         i1 = 0
-         res = ''
          cnt=[]
-         # if num == 0:
-         #    print('Invalid entry')
-         #    break # stop the program if input is 0
          for i in l: # loop the list to test numbers
-            if i <= num:
-               res=divmod(num,i)
+            if i <= num: # i must be lower or equal to the decimal input
+               res=divmod(num,i) # get quotient and mod
                i1=i
-               if res[0] >= 1 and res[1] == 0:
+               if res[0] >= 1 and res[1] == 0: # check if no mod
                   if res[0] == 1:
                      cnt.append(d[i1])
                      break
