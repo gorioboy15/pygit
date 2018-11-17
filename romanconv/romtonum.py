@@ -1,20 +1,16 @@
 '''Convert roman numerals to decimals '''
 
-
-l=[1,4,5,9,10,40,50,90,100,400,500,900,1000] # test numbers
 d={'I':1,'IV':4,'V':5,'IX':9,'X':10,
   'XL':40,'L':50,'XC':90,'C':100,
   'CD':400,'D':500,'CM':900,'M':1000}
-l.reverse()
+
 
 
 def romtodec():
     r1 = 0
-    res = ''
     ck = 0
     s=0
     e=2
-    cnt=[]
     rom  = input('convert to  decimal: ').upper()
     if len(rom) > 1:
         for r in rom:
@@ -28,8 +24,11 @@ def romtodec():
                     r1 += d[r]
                     s += 1
                     e += 1
+                    ck = 0
             else:
                 ck = 0
+                s += 1
+                e += 1
                 continue
         return r1
 
