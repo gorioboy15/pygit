@@ -6,25 +6,22 @@ d={'I':1,'IV':4,'V':5,'IX':9,'X':10,
 
 
 
-def romtodec():
-    r1 = 0
-    ck = 0
-    s=0
-    e=2
-    rom  = input('convert to  decimal: ').upper()
-    if len(rom) > 1:
-        for r in rom:
-            if ck == 0: 
-                if rom[s:e] in d.keys():
-                    r1 += d[rom[s:e]]
-                    s += 1
-                    e += 1
-                    ck = 1 
+def romtodec(r):
+    rom = r.upper()
+    r1, ck = 0, 0
+    s, e = 0, 2 # for slicing
+    if len(rom) > 1: # check len of roman input
+        for r in rom: # loop if it's greater than 1
+            if ck == 0:
+                if rom[s:e] in d.keys(): # check if it has double roman numerals(e.g iv,ix etc.)
+                    r1 += d[rom[s:e]] # add the double numerals
+                    s += 1 # update slice for next loop
+                    e += 1 # update slice for next loop
+                    ck = 1  # update to skip the next loop
                 elif r in d.keys():
                     r1 += d[r]
                     s += 1
                     e += 1
-                    ck = 0
             else:
                 ck = 0
                 s += 1
@@ -34,36 +31,8 @@ def romtodec():
 
     else:
         if rom in d.keys():
-            
             return d[rom]
 
-#print(romtodec())
-
-        '''
-            if res[0] >= 1 and res[1] == 0:
-               if res[0] == 1:
-                  cnt.append(d[i1])
-                  break
-               else:
-                  #cnt.append(d[i1])
-                  for i in range(res[0]):
-                     cnt.append(d[i1])
-                  break
-            elif res[0] >= 1 and res[1] > 0:
-               if res[0] == 1:
-                  cnt.append(d[i1])
-                  if res[1] != 0:
-                     samp = res[1]
-                  else:
-                     break
-               else:
-                  for i in range(res[0]):
-                     cnt.append(d[i1])
-                  if res[1] != 0:
-                     samp = res[1]
-
-                  else:
-                     break
-        '''
-      #return r1
-print(romtodec())
+while True:
+    rs = input('enter: ')
+    print(romtodec(rs))
