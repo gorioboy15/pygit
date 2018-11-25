@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 url = 'http://www.espn.com/nba/standings/_/group/league'
 
