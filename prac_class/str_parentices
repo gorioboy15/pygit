@@ -1,0 +1,26 @@
+bracs = {'(':')','{':'}','[':']'}
+
+class Parentices:
+    '''check vaildity of parentices'''
+    def chckvalid(self,s):
+       cnt = 0
+       st = ''
+       fin = []
+       for i in s:
+          if cnt == 0:
+             if bracs[i] in bracs.values():
+                st+=i
+                cnt=1
+             else:
+                continue
+          elif bracs[st] != i:
+                cnt = 0
+                st = ''
+          else:
+                fin.append(st+i)
+                st = '' 
+ 
+       return fin
+
+print(Parentices().chckvalid('[]()'))
+#print(Parentesis().chckvalid('{('))
